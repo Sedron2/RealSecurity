@@ -12,7 +12,7 @@ p {
 body {
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 1920px 1080px;
 	background-attachment: fixed;
 }
 
@@ -89,11 +89,15 @@ a {
 	font-size: 70px;
 	letter-spacing: 4px;
 	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 #middleContent {
 	width: 50%;
-	margin-left: 340px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -274,7 +278,8 @@ a {
 
 #threeOptions {
 	width: 55%;
-	padding-left: 160px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .option {
@@ -282,6 +287,10 @@ a {
 	margin-right: 50px;
 	width: 260px;
 	height: 100%;
+}
+
+#first {
+	margin-left: 50px;
 }
 
 #second {
@@ -307,10 +316,42 @@ a {
 
 
 
+
+
 #brandsUsed {
 	height: 435px;
 	background-color: #FFF;
 }
+
+#titleBrand {
+	display: inline-flex;
+	margin-top: 110px;
+	margin-bottom: 60px;
+	width: 100%;
+	justify-content: center;
+}
+
+#titleBrand > p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#imageBrand {
+	display: flex;
+	height: 80%;
+	width: 100%;
+	justify-content: center;
+}
+
+#imageBrand > img {
+	height: 120px;
+	width: 880px;
+}
+
+
+
+
+
 
 #CWH {
 	height: 105px;
