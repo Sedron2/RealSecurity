@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Dubai Light";
+	font-size: 17px;
+}
+
+p {
+	font-family: "Corbel Light";
+}
+
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+body > div {
+	width: 100%;
+}
+
+a {
+	text-decoration:none;
+	font-size: 17px;
+	color: black;
+}
+
+#menu {
+	display: flex;
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#menu > div > ul > li {
+	display: inline-flex;
+	height: 50px;
+	align-items: center;
+	transition-duration: .5s;
+}
+
+#menu > div > ul > li:hover {
+	background-color: #FFB201;
+}
+
+#menu > div > ul > li > a {
+	padding: 10px 25px;
+}
+
+#jpg {
+	float: left;
+	height: 250px;
+	width: 100%;
+	margin-left: 50px;
+}
+
+
+
+
+
+#middle {
+	display: flex;
+	position: relative;
+	height: 475px;
+	background: transaprent;
+	justify-content: center;
+	align-items: center;
+	color:  #FFF;
+}
+
+#middle > div {
+	text-align: center;
+}
+
+#middle > div> p {
+	animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+#middleHeader {
+	font-size: 70px;
+	letter-spacing: 4px;
+	margin-left: auto;
+}
+
+#middleContent {
+	width: 50%;
+	margin-left: 340px;
+}
+
+
+
+
+#three {
+	display: flex;
+	height: 127px;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFB201;
+}
+
+#three > div {
+	display: flex;
+	height: 125px;
+	width: 920px;
+	color: #FFF;
+	align-items: center;
+	justify-content: center;
+}
+
+.three {
+	display: inline-block;
+	height: 95px;
+	width: 300px;
+	color: #FFF;
+}
+
+.threeHeader {
+	font-size: 23px;
+}
+
+#line {
+	height: 70px;
+	width: 1px;
+	margin-right: 12px;
+	background-color: #FFF;
+}
+
+#cams {
+	display: inline-block;
+	height: 95px;
+	width: 310px;
+	color: #FFF;
+}
+
+
+
+
+#visitUs {
+	display: flex;
+	height: 389px;
+	background-color: #FFF;
+	align-items: center;
+}
+
+#content {
+	display: block;
+	float: left;
+	height: 50%;
+	width: 1000px;
+}
+
+#visitHeader {
+	display: block;
+	float: right;
+	width: 100%;
+	height: 40px;
+}
+
+#visitHeader > p {
+	margin-left: 650px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+#visitContent {
+	display: block;
+	float: right;
+	width: 100%;
+}
+
+#visitContent > p {
+	float: right;
+	width: 445px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#visitButton {
+	float: right;
+	display: block;
+	height: 40px;
+	width: 200px;
+	margin-right: 125px;
+	background-color: #FFB201;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+	transition-duration: .3s;
+}
+
+#visitButton:hover {
+	background-color: #9E7200;
+}
+
+#visitButonContent {
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	padding: 3px 34px;
+}
+
+
+
+
+
+
+#offerYou {
+	height: 690px;
+	background-color: #c9c9c9;
+}
+
+#brandsUsed {
+	height: 435px;
+	background-color: #FFF;
+}
+
+#CWH {
+	height: 105px;
+	background-color: #FFB201;
+}
+
+#end {
+	height: 265px;
+	background-color: #323232;
+}
