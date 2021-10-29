@@ -171,7 +171,8 @@ a {
 
 #visitUsImage {
 	display: flex;
-	width: 80%;
+	height: 250px;
+	width: 440px;
 	margin-top: 16%;
 	margin-bottom: auto;
 	margin-left: 20%;
@@ -199,36 +200,36 @@ a {
 }
 
 #visitButton {
-  float: right;
-  display: block;
+  display: inline-flex;
   height: 40px;
-  width: 200px;
-  margin-right: 125px;
-  background-color: #FFB201;
-  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   position: relative;
   margin-top: 20px;
-  transition-duration: .3s;
-}
-
-#visitButton:hover {
-  background-color: #9E7200;
 }
 
 #visitButonContent {
   display: inline-block;
   color: #fff;
   font-size: 20px;
+  background-color: #FFB201;
   padding: 3px 34px;
+  transition-duration: 0.3s;
+}
+
+#visitButonContent:hover {
+  background-color: #9E7200;
 }
 
 
 
 
 
+
 #offerYou {
-	height: 690px;
-	background-color: #c9c9c9;
+	height: 500px;
+	background-color: #e3e3e3;
 	padding-top: 120px;
 }
 
@@ -245,8 +246,62 @@ a {
   text-align: center;
 }
 
+#contentHeader {
+	display: inline-flex;
+	margin-top: 30px;
+	height: 45px;
+	width: 100%;
+	justify-content: center;
+}
 
+#contentHeader > p {
+	height: 100%;
+	width: 30%;
+	text-align: center;
+}
 
+#options {
+	display: flex;
+	justify-content: center;
+}
+
+#underOptions {
+	display: inline-flex;
+	height: 250px;
+	width: 100%;
+	justify-content: center;
+}
+
+#threeOptions {
+	width: 55%;
+	padding-left: 160px;
+}
+
+.option {
+	display: inline-block;
+	margin-right: 50px;
+	width: 260px;
+	height: 100%;
+}
+
+#second {
+	margin-right: 45px;
+}
+
+.headerOption {
+	width: 130px;
+	display: block;
+	height: 50px;
+	font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.option > p {
+	text-align: center;
+}
 
 
 
