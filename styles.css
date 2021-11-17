@@ -353,12 +353,96 @@ a {
 
 
 
-#CWH {
+#threeCWH{
+	display: inline-flex;
 	height: 105px;
+	align-items: center;
+	justify-content: center;
 	background-color: #FFB201;
+	box-shadow: 2px 2px 10px #222;
+	z-index: 1;
 }
 
+
+
+#threeCWH > div {
+	display: flex;
+	height: 125px;
+	width: 920px;
+	color: #FFF;
+	align-items: center;
+	justify-content: center;
+	padding-left: 120px;
+}
+
+#lineshort {
+	height: 50px;
+	width: 1px;
+	margin-right: 70px;
+	background-color: #FFF;
+}
+
+.threeCWH {
+	display: inline-block;
+	height: 95px;
+	width: 300px;
+	color: #FFF;
+	padding-top: 35px;
+}
+
+
+
 #end {
-	height: 265px;
-	background-color: #323232;
+	display: flex;
+	height: 290px;
+	background-color: #2c2c2c;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+
+#end > div {
+	width: 800px;
+	height: 100%;
+	display: inline-flex;
+}
+
+.last3 {
+	width: 50%;
+	margin: 2px;
+	color: #FFF;
+}
+
+#last3 {
+	width: 50%;
+	margin: 2px;
+	color: #FFF;
+	margin-left: 120px;
+}
+
+.lastHeader {
+	font-size: 23px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+#lastImage {
+	margin-top: 45px;
+	cursor: pointer;
+}
+
+#lastApply {
+	margin-left: 80px;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1060px) {
+	#child {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 990px) {
+	#menu > div {
+		
+	}
 }
