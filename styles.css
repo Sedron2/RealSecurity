@@ -1,12 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Dubai Light";
+	font-family: "Helvetica";
 	font-size: 17px;
 }
 
 p {
-	font-family: "Corbel Light";
+	font-family: "Helvetica";
 }
 
 body {
@@ -214,12 +214,14 @@ a {
 }
 
 #visitButonContent {
-  display: inline-block;
+  display: inline-flex;
   color: #fff;
   font-size: 20px;
   background-color: #FFB201;
   padding: 3px 34px;
+  align-items: center;
   transition-duration: 0.3s;
+  height: 35px;
 }
 
 #visitButonContent:hover {
@@ -234,12 +236,13 @@ a {
 #offerYou {
 	height: 500px;
 	background-color: #e3e3e3;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 
 #headHeader {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 
 #headHeader > p {
@@ -433,16 +436,4 @@ a {
 
 #lastApply {
 	margin-left: 80px;
-}
-
-@media only screen and (min-width: 990px) and (max-width: 1060px) {
-	#child {
-		width: 70%;
-	}
-}
-
-@media only screen and (min-width: 100px) and (max-width: 990px) {
-	#menu > div {
-		
-	}
 }
